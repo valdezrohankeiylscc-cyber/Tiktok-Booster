@@ -36,12 +36,12 @@ captcha_image_path = "captcha_image.png"
 
 
 def get_video_url():
-    print(Fore.CYAN + "Enter the TikTok video URL" + Style.RESET_ALL)
+    print(Fore.CYAN + "https://www.tiktok.com/@veirrn4rr/video/7632341918512336149?is_from_webapp=1&sender_device=pc&web_id=7537001114018989589" + Style.RESET_ALL)
     return input(Fore.GREEN + ">>> " + Style.RESET_ALL)
 
 
 def get_target_views():
-    print(Fore.CYAN + "Enter the number of views you want to send" + Style.RESET_ALL)
+    print(Fore.CYAN + "35000" + Style.RESET_ALL)
     while True:
         try:
             return int(input(Fore.GREEN + ">>> " + Style.RESET_ALL))
